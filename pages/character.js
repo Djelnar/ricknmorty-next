@@ -93,7 +93,7 @@ export default class extends React.Component {
       image,
       name,
       gender,
-      aliveStatus = 'unknown',
+      status: aliveStatus = 'unknown',
       origin,
       location: characterLocation,
       species,
