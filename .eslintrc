@@ -1,0 +1,8 @@
+{
+  "extends": "@atomix/eslint-config-react",
+  "rules": {
+    "import/no-default-export": 0,
+    "unicorn/filename-case": 0,
+    "react/prop-types": 0
+  }
+}
