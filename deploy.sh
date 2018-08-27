@@ -1,3 +1,4 @@
-`now rm rickmotry-next -y
+now rm ricknmorty-next -y
 now --public
-now alias`
+now alias
+echo 'https://ricknmortyspa.now.sh/'

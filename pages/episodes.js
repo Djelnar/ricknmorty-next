@@ -69,6 +69,9 @@ export default class extends React.Component {
                     <p>{name}</p>
                     <p>{episode}</p>
                     <p>{airDate}</p>
+                    <Link passHref href={`/episode?id=${id}`}>
+                      <Button stickToBottom>More info</Button>
+                    </Link>
                   </Card>
                 </Box>
               ))

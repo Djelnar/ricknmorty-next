@@ -10,9 +10,18 @@ export const Button = styled.a`
   background-color: blue;
   text-decoration: none;
   color: #ffffff;
-  margin-right: 4px;
+
+  align-self: flex-start;
+
+  user-select: none;
 
   :hover {
     background-color: blueviolet;
   }
+
+  :active {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px;
+  }
+
+  margin-top: ${(p) => p.stickToBottom && 'auto'};
 `

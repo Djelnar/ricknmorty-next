@@ -59,7 +59,7 @@ export default class extends React.Component {
                 name,
                 image,
                 gender,
-                status: aliveStatus,
+                status: aliveStatus = 'unknown',
                 origin,
                 location: characterLocation,
               }) => ((
@@ -71,6 +71,9 @@ export default class extends React.Component {
                     <p>Status: {aliveStatus}</p>
                     <p>From: {origin.name}</p>
                     <p>Location: {characterLocation.name}</p>
+                    <Link passHref href={`/character?id=${id}`}>
+                      <Button stickToBottom>More info</Button>
+                    </Link>
                   </Card>
                 </Box>
               )))

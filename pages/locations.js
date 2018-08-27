@@ -61,6 +61,9 @@ export default class extends React.Component {
                     <p>{name}</p>
                     <p>Type: {type}</p>
                     <p>Dimension: {dimension}</p>
+                    <Link passHref href={`/location?id=${id}`}>
+                      <Button stickToBottom>More info</Button>
+                    </Link>
                   </Card>
                 </Box>
               ))
