@@ -59,37 +59,32 @@ export const CharactersTable = class extends React.Component {
     const { images, loaded } = this.state
     const { all } = this.props
 
-    return loaded
-      ? (
-        <>
-          <StyledFlex
-            limitedwidth={all ? 1 : 0}
-            empty={images.length === 0 ? 1 : 0}
-          >
-            {
-              images.map(({ image, id }) => (
-                <Link
-                  key={id}
-                  href={`/character?id=${id}`}
-                >
-                  <Box
-                    pr={all ? '10px' : 0}
-                    pb={all ? '10px' : 0}
-                    width={1 / 4}
-                  >
-                    <CardImage
-                      link
-                      src={image}
-                      alt=""
-                    />
-                  </Box>
-                </Link>
-              ))
-            }
-          </StyledFlex>
-        </>
-
-      )
-      : null
+    return (
+      <StyledFlex
+        limitedwidth={all ? 1 : 0}
+        empty={images.length === 0 ? 1 : 0}
+      >
+        {
+          loaded && images.map(({ image, id }) => (
+            <Link
+              key={id}
+              href={`/character?id=${id}`}
+            >
+              <Box
+                pr={all ? '10px' : 0}
+                pb={all ? '10px' : 0}
+                width={1 / 4}
+              >
+                <CardImage
+                  link
+                  src={image}
+                  alt=""
+                />
+              </Box>
+            </Link>
+          ))
+        }
+      </StyledFlex>
+    )
   }
 }

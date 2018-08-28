@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 export const Button = styled.a`
   display: block;
+  max-width: 100%;
   flex: 0 0 auto;
   padding: 8px;
   margin-right: 4px;
@@ -24,4 +25,5 @@ export const Button = styled.a`
   }
 
   margin-top: ${(p) => p.stickToBottom && 'auto'};
+  margin-bottom: ${(p) => p.stickToBottom && 0};
 `

@@ -97,7 +97,7 @@ export default class extends React.Component {
       origin,
       location: characterLocation,
       species,
-      type = 'unknown',
+      type,
     } = character
 
     return (
@@ -115,7 +115,7 @@ export default class extends React.Component {
               <p>Gender: {gender}</p>
               <p>Status: {aliveStatus}</p>
               <p>Species: {species}</p>
-              <p>Type: {type}</p>
+              <p>Type: {type || 'unknown'}</p>
               <p>From: {origin.name}</p>
               <p>Location:{' '}
                 <Link href={`/location?id=${characterLocation.url.replace(/^.+\//, '')}`} passHref>
