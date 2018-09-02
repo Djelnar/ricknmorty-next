@@ -14,7 +14,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.6.0",
     "grid-styled": "^5.0.2",
-    "next": "^7.0.0-canary.7",
+    "next": "^7.0.0-canary.8",
     "ramda": "^0.25.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
