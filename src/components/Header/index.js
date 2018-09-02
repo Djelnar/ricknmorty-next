@@ -6,13 +6,13 @@ import { HeaderLayout } from 'ui/Header'
 
 export const Header = () => (
   <HeaderLayout>
-    <Link href="/characters" passHref>
+    <Link href="/characters" passHref prefetch>
       <HeaderLink>Characters</HeaderLink>
     </Link>
-    <Link href="/locations" passHref>
+    <Link href="/locations" passHref prefetch>
       <HeaderLink>Locations</HeaderLink>
     </Link>
-    <Link href="/episodes" passHref>
+    <Link href="/episodes" passHref prefetch>
       <HeaderLink>Episodes</HeaderLink>
     </Link>
   </HeaderLayout>
