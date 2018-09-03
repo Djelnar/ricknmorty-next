@@ -21,3 +21,15 @@ describe('Card Component', () => {
     expect(output).toMatchSnapshot()
   })
 })
+
+describe('Card Component with Link prop', () => {
+  it('should render correctly', () => {
+    const output = renderer.create((
+      <Card>
+        <CardImage link />
+      </Card>
+    )).toJSON()
+
+    expect(output).toMatchSnapshot()
+  })
+})

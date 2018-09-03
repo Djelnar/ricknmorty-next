@@ -69,3 +69,79 @@ exports[`Card Component should render correctly 1`] = `
   </div>
 </div>
 `;
+
+exports[`Card Component with Link prop should render correctly 1`] = `
+.c0 {
+  width: 100%;
+  min-width: 150px;
+  padding: 8px;
+  height: 100%;
+}
+
+.c1 {
+  background-color: #ffffff;
+  padding: 8px;
+  height: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c1 p {
+  margin: 6px 0;
+}
+
+.c1 p:first-child {
+  margin-top: 0;
+}
+
+.c1 p:last-of-type {
+  margin-bottom: 14px;
+}
+
+.c2 {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+}
+
+.c2:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <img
+      className="c2"
+    />
+  </div>
+</div>
+`;
