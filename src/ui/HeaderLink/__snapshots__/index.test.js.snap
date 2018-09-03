@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderLink should render correctly 1`] = `
+.c0 {
+  display: block;
+  color: #ffffff;
+  padding-left: 8px;
+  padding-right: 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<a
+  className="c0"
+  href="/mock"
+>
+  Mock Content
+</a>
+`;

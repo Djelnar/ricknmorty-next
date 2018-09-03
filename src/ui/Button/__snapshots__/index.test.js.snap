@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Generic Button should render correctly 1`] = `
+.c0 {
+  display: block;
+  max-width: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 8px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  background-color: blue;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: blueviolet;
+}
+
+.c0:active {
+  box-shadow: rgba(0,0,0,0.2) 0px 0px 3px;
+}
+
+<a
+  className="c0"
+>
+  mockTitle
+</a>
+`;
+
+exports[`Sticky Button should render correctly 1`] = `
+.c0 {
+  display: block;
+  max-width: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 8px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  background-color: blue;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.c0:hover {
+  background-color: blueviolet;
+}
+
+.c0:active {
+  box-shadow: rgba(0,0,0,0.2) 0px 0px 3px;
+}
+
+<a
+  className="c0"
+>
+  mockTitle
+</a>
+`;

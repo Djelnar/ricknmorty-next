@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component should render correctly 1`] = `
+.c0 {
+  height: calc(100vh - 52px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: pink;
+}
+
+.c1 {
+  font-size: 28px;
+  color: #ffffff;
+  text-align: center;
+}
+
+<main
+  className="c0"
+>
+  <h1
+    className="c1"
+  >
+    Home Title
+  </h1>
+</main>
+`;

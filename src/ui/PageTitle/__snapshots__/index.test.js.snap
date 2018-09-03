@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageTitle should render correctly 1`] = `
+.c0 {
+  padding: 16px 8px 8px;
+  font-size: 24px;
+  color: #333333;
+}
+
+<h1
+  className="c0"
+>
+  Mock Content
+</h1>
+`;
