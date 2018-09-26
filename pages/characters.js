@@ -67,10 +67,22 @@ export default class extends React.Component {
                   <Card>
                     <CardImage src={image} alt={name} />
                     <p>{name}</p>
-                    <p>Gender: {gender}</p>
-                    <p>Status: {aliveStatus}</p>
-                    <p>From: {origin.name}</p>
-                    <p>Location: {characterLocation.name}</p>
+                    <p>
+                      Gender:
+                      {gender}
+                    </p>
+                    <p>
+                      Status:
+                      {aliveStatus}
+                    </p>
+                    <p>
+                      From:
+                      {origin.name}
+                    </p>
+                    <p>
+                      Location:
+                      {characterLocation.name}
+                    </p>
                     <Link passHref href={`/character?id=${id}`}>
                       <Button stickToBottom>More info</Button>
                     </Link>

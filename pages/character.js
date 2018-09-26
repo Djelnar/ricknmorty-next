@@ -112,12 +112,29 @@ export default class extends React.Component {
             </Box>
             <Box p="8px" width={[1, 1, 3 / 4]}>
               <p>{name}</p>
-              <p>Gender: {gender}</p>
-              <p>Status: {aliveStatus}</p>
-              <p>Species: {species}</p>
-              <p>Type: {type || 'unknown'}</p>
-              <p>From: {origin.name}</p>
-              <p>Location:{' '}
+              <p>
+                Gender:
+                {gender}
+              </p>
+              <p>
+                Status:
+                {aliveStatus}
+              </p>
+              <p>
+                Species:
+                {species}
+              </p>
+              <p>
+                Type:
+                {type || 'unknown'}
+              </p>
+              <p>
+                From:
+                {origin.name}
+              </p>
+              <p>
+                Location:
+                {' '}
                 <Link href={`/location?id=${characterLocation.url.replace(/^.+\//, '')}`} passHref>
                   <StyledLink>{characterLocation.name}</StyledLink>
                 </Link>
@@ -129,7 +146,11 @@ export default class extends React.Component {
                     .slice(0, showMore ? undefined : 5)
                     .map(({ name: episodeName, episodeID, episodeCode }) => (
                       <Link key={episodeID} href={`/episode?id=${episodeID}`} passHref>
-                        <Button>{episodeCode} {episodeName}</Button>
+                        <Button>
+                          {episodeCode}
+                          {' '}
+                          {episodeName}
+                        </Button>
                       </Link>
                     ))
                 }

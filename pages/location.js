@@ -59,10 +59,19 @@ export default class extends React.Component {
         <PageTitle>{name}</PageTitle>
         <Flex flexDirection="column" alignItems="flex-start">
           <Card>
-            <p>ID: {id}</p>
+            <p>
+              ID:
+              {id}
+            </p>
             <p>{name}</p>
-            <p>Type: {type}</p>
-            <p>Dimension: {dimension}</p>
+            <p>
+              Type:
+              {type}
+            </p>
+            <p>
+              Dimension:
+              {dimension}
+            </p>
             <p>Residents:</p>
             <CharactersTable all characters={residents} />
           </Card>

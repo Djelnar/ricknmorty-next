@@ -59,8 +59,14 @@ export default class extends React.Component {
                   <Card>
                     <CharactersTable characters={residents.slice(0, 4)} />
                     <p>{name}</p>
-                    <p>Type: {type}</p>
-                    <p>Dimension: {dimension}</p>
+                    <p>
+                      Type:
+                      {type}
+                    </p>
+                    <p>
+                      Dimension:
+                      {dimension}
+                    </p>
                     <Link passHref href={`/location?id=${id}`}>
                       <Button stickToBottom>More info</Button>
                     </Link>

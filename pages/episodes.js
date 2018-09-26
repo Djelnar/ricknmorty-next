@@ -58,7 +58,10 @@ export default class extends React.Component {
     return (
       <>
         <Header />
-        <PageTitle>Episodes of S{series}</PageTitle>
+        <PageTitle>
+          Episodes of S
+          {series}
+        </PageTitle>
         <Flex flexWrap="wrap">
           {
             episodes.length && episodes
@@ -83,7 +86,10 @@ export default class extends React.Component {
               .filter((p) => p !== series)
               .map((p) => (
                 <Link key={p} passHref href={`/episodes?series=${p}`}>
-                  <Button>S{p}</Button>
+                  <Button>
+                    S
+                    {p}
+                  </Button>
                 </Link>
               ))
           }

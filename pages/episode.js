@@ -59,9 +59,19 @@ export default class extends React.Component {
         <PageTitle>{name}</PageTitle>
         <Flex flexDirection="column" alignItems="flex-start">
           <Card>
-            <p>ID: {id}</p>
-            <p>{episodeID}{' '}{name}</p>
-            <p>Air date: {airDate}</p>
+            <p>
+              ID:
+              {id}
+            </p>
+            <p>
+              {episodeID}
+              {' '}
+              {name}
+            </p>
+            <p>
+              Air date:
+              {airDate}
+            </p>
             <p>Characters:</p>
             <CharactersTable all characters={characters} />
           </Card>
