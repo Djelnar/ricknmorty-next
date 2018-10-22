@@ -13,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-plugin-styled-components": "^1.7.1",
+    "babel-plugin-styled-components": "^1.8.0",
     "grid-styled": "^5.0.2",
-    "next": "^7.0.0",
+    "next": "^7.0.2",
     "ramda": "^0.25.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -26,12 +26,12 @@
     "@atomix/eslint-config-react": "^7.0.0-alpha.2",
     "babel-jest": "^23.6.0",
     "babel-plugin-module-resolver": "^3.1.1",
-    "enzyme": "^3.6.0",
-    "enzyme-adapter-react-16": "^1.5.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
     "enzyme-to-json": "^3.3.4",
-    "eslint": "^5.6.0",
+    "eslint": "^5.7.0",
     "jest": "^23.6.0",
-    "jest-styled-components": "^6.2.1",
+    "jest-styled-components": "^6.2.2",
     "react-test-renderer": "^16.5.2"
   }
 }
